@@ -1,10 +1,12 @@
 package org.iccQubaApp.presentation.controller;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 
-import org.iccQubaApp.IServiceTest;
+import org.iccQubaApp.IAccountService;
+import org.iccQubaApp.persistence.model.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,7 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 	
 	@Autowired
-	private IServiceTest serviceTest;
+	private IAccountService accountService;
 
 	
 	@RequestMapping(value="/")
@@ -23,10 +25,10 @@ public class HomeController {
 		
 		return new ModelAndView("home");
 	}
-	@RequestMapping("/viewTest")
+	@RequestMapping("/listAccount")
 	public String accountDetails(Model model) {
-		String msg = serviceTest.test("test");
-		model.addAttribute("msg", msg);
-		return "viewTest";
+		List<Account> listAccount = accountService.findAllAccount("test");
+		model.addAttribute("listAccount", listAccount);
+		return "listAccount";
 	}
 }
