@@ -1,0 +1,12 @@
+config/RepositoryAppConfig.class
+org/iccQubaApp/persistence/dao/AccountRepository.class
+org/iccQubaApp/persistence/dao/AbstractJpaDAO.class
+org/iccQubaApp/persistence/model/MonetaryAmount.class
+org/iccQubaApp/persistence/model/AccountContribution.class
+org/iccQubaApp/persistence/model/Beneficiary.class
+org/iccQubaApp/persistence/dao/JpaAccountRepository.class
+config/PersistenceJPAConfig.class
+org/iccQubaApp/persistence/model/Percentage.class
+org/iccQubaApp/persistence/model/AccountContribution$Distribution.class
+org/iccQubaApp/persistence/dao/IRepositoryTest.class
+org/iccQubaApp/persistence/model/Account.class

@@ -1,0 +1,11 @@
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/model/MonetaryAmount.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/config/PersistenceJPAConfig.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/dao/AbstractJpaDAO.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/dao/AccountRepository.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/model/Percentage.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/model/AccountContribution.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/dao/IRepositoryTest.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/dao/JpaAccountRepository.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/config/RepositoryAppConfig.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/model/Account.java
+/Users/mohammed/Dev/Projects/workspace/iccQubaApp/iccQubaApp-integration/src/main/java/org/iccQubaApp/persistence/model/Beneficiary.java
